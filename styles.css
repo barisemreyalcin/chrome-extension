@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 10px;
+}
+
+body {
+    font-family: 'Hind', sans-serif;
+    font-size: 1.6rem;
+    padding: 1rem;
+}
+
+#input {
+    width: 100%;
+    border: 1px solid #418a28;
+    padding: 1rem;
+}
+
+#btn {
+    background-color: #418a28;
+    color: #eff9eb;
+    border: none;
+    font-weight: bold;
+    font-size: 1.6rem;
+    cursor: pointer;
+    transition: .3s;
+    margin-top: 1rem;
+    padding: 1rem 2rem;
+}
+
+#btn:hover {
+    background-color: #2e631d;
+}
+
+.item {
+    display: block;
+}
