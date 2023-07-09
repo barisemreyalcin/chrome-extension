@@ -14,12 +14,9 @@ function renderLeads() {
     for(let i = 0; i < myArr.length; i++) {
         listItems += `
         <li>
-        <a href="${myArr[i]}" target="_blank">${myArr[i]}</a>
+        <a href="${myArr[i]}" target="_blank"><i class="fa-solid fa-link"></i>${myArr[i]}</a>
         </li>
         ` 
     }
     ul.innerHTML = listItems;
 }
-
-
-x
