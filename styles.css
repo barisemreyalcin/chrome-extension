@@ -12,6 +12,7 @@ body {
     font-family: 'Hind', sans-serif;
     font-size: 1.6rem;
     padding: 1rem;
+    min-width: 40rem;
 }
 
 #input {
