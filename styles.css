@@ -21,9 +21,8 @@ body {
     padding: 1rem;
 }
 
-#btn {
-    background-color: #418a28;
-    color: #eff9eb;
+.btn {
+    display: inline-block;
     border: none;
     font-weight: bold;
     font-size: 1.6rem;
@@ -33,13 +32,27 @@ body {
     padding: 1rem 2rem;
 }
 
-#btn:hover {
+#btn-save {
+    background-color: #418a28;
+    color: #eff9eb;
+}
+
+#btn-delete {
+    background-color: #b30000;
+    color: #eff9eb;
+}
+
+#btn-delete:hover {
+    background-color: #850000;
+}
+
+#btn-save:hover {
     background-color: #2e631d;
 }
 
-.item {
+/* .item {
     display: block;
-}
+} */
 
 ul {
     list-style: none;

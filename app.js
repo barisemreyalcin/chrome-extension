@@ -1,4 +1,4 @@
-const btn = document.querySelector("#btn");
+const btn = document.querySelector("#btn-save");
 const input = document.querySelector("#input");
 const ul = document.querySelector(".list-items");
 let myLeads = [];
