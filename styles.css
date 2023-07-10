@@ -32,7 +32,7 @@ body {
     padding: 1rem 2rem;
 }
 
-#btn-save {
+#btn-save, #btn-tab {
     background-color: #418a28;
     color: #eff9eb;
 }
@@ -46,7 +46,7 @@ body {
     background-color: #850000;
 }
 
-#btn-save:hover {
+#btn-save:hover, #btn-tab:hover {
     background-color: #2e631d;
 }
 
