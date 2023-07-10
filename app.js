@@ -1,19 +1,26 @@
-const btn = document.querySelector("#btn-save");
+const btnSave = document.querySelector("#btn-save");
 const input = document.querySelector("#input");
 const ul = document.querySelector(".list-items");
+const btnDelete = document.querySelector("#btn-delete");
 let myLeads = [];
 
-let leadsFromLocalStorage = JSON.parse(localStorage.getItem("myLeads"));
+const leadsFromLocalStorage = JSON.parse(localStorage.getItem("myLeads"));
 
 if(leadsFromLocalStorage) {
     myLeads = leadsFromLocalStorage;
     renderLeads();
 }
 
-btn.addEventListener("click", function() {
+btnSave.addEventListener("click", function() {
     myLeads.push(input.value);
     input.value = "";
     localStorage.setItem("myLeads", JSON.stringify(myLeads));
+    renderLeads();
+})
+
+btnDelete.addEventListener("dblclick", function() {
+    localStorage.clear();
+    myLeads = [];
     renderLeads();
 })
 
