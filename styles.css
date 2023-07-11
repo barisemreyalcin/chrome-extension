@@ -10,9 +10,9 @@ html {
 
 body {
     font-family: 'Hind', sans-serif;
-    font-size: 1.6rem;
+    font-size: 1.4rem;
     padding: 1rem;
-    min-width: 40rem;
+    min-width: 42rem;
 }
 
 #input {
@@ -68,6 +68,6 @@ li a:hover {
 }
 
 li a .fa-solid {
-    font-size: 1.4rem;
+    font-size: 1.2rem;
     padding-right: 1rem;
 }
